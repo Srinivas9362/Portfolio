@@ -27,17 +27,17 @@ export default function Experience() {
       </motion.div>
       <div className="w-full md:w-1/2 mt-4 md:mt-0 text-[#495057] dark:text-white text-xl grid grid-row-1 gap-4">
         <ExperienceCard
-          title="Senior Cloud Engineer"
+          title="Data Engineer"
           company="LTIMindtree, Bengaluru"
-          date="July 2022 - Present"
+          date="Oct 2022 - Present"
           data={data.lti}
         />
-        <ExperienceCard
+        {/* <ExperienceCard
           title="Full-Stack Developer Intern"
           company="RunShaw Technologies Pvt Ltd"
           date="August 2021 - October 2021"
           data={data.runShaw}
-        />
+        /> */}
       </div>
     </div>
   );

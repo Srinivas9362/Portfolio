@@ -6,7 +6,7 @@ export default function Information(props) {
     <div
       className="flex items-center mx-4 my-2"
       onClick={
-        props.mail ? () => window.open("mailto:nirajmuttur2@outlook.com") : null
+        props.mail ? () => window.open("mailto:Srinivascmrit04@gmail.com") : null
       }
     >
       <div>

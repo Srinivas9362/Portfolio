@@ -48,7 +48,7 @@ export default function Hero() {
       <div className="flex flex-col md:flex-row">
         <Information
           icon={<PiBriefcase />}
-          text="Software Developer"
+          text="Data Engineer"
           mail={false}
         />
         <Information
