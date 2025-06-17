@@ -25,7 +25,7 @@ export default function Hero() {
         transition={{ delay: 0.2 }}
         className="m-1"
       >
-        <h3 className="font-semibold text-4xl">Niraj Muttur</h3>
+        <h3 className="font-semibold text-4xl">Srinivas N</h3>
       </motion.div>
       <div className="flex items-center m-8 p-3 rounded-full border border-[#11181C] dark:border-white">
         <motion.div
