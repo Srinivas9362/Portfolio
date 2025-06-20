@@ -3,16 +3,15 @@ import {
   SiSnowflake,
   SiPython,
   SiMysql,
-  SiAmazonaws,
   SiApacheairflow,
   SiApachehadoop,
   SiApachespark,
 } from "react-icons/si";
-import { FaDatabase } from "react-icons/fa";
-import { HiCog } from "react-icons/hi";
+import { FaDatabase, FaTools } from "react-icons/fa";
+import { HiOutlineChartBar } from "react-icons/hi";
 import { motion } from "framer-motion";
 
-// Core technical skills
+// 🧠 Core Skills
 const coreSkills = [
   { icon: <SiPython />, title: "Python" },
   { icon: <FaDatabase />, title: "SQL" },
@@ -22,19 +21,30 @@ const coreSkills = [
   { icon: <SiApachehadoop />, title: "Hadoop" },
 ];
 
-// AWS/Cloud technologies
+// ☁️ Cloud Skills (with separate icons)
 const cloudSkills = [
-  { icon: <SiAmazonaws />, title: "AWS Glue" },
-  { icon: <SiAmazonaws />, title: "AWS Redshift" },
-  { icon: <SiAmazonaws />, title: "AWS Athena" },
+  { icon: <FaTools />, title: "AWS Glue" },
+  { icon: <FaDatabase />, title: "AWS Redshift" },
+  { icon: <HiOutlineChartBar />, title: "AWS Athena" },
 ];
 
-// Workflow/ETL tools
+// 🛠️ Other Tools
 const otherSkills = [
   { icon: <SiApacheairflow />, title: "Apache Airflow" },
-  { icon: <HiCog />, title: "Apache NiFi" },
+  {
+    icon: (
+      <img
+        src="/Nifi_icon.png"
+        alt="Apache NiFi"
+        className="w-10 h-10"
+        style={{ objectFit: "contain", borderRadius: "0.25rem" }}
+      />
+    ),
+    title: "Apache NiFi",
+  },
 ];
 
+// 🔄 Reusable Skill Section
 const SkillSection = ({ title, skills }) => (
   <div className="mb-12 w-full">
     <h2 className="text-xl font-bold mb-4 text-[#0f172a] dark:text-white">{title}</h2>
@@ -52,6 +62,7 @@ const SkillSection = ({ title, skills }) => (
   </div>
 );
 
+// 📦 Main Exported Component
 export default function Skills() {
   return (
     <div className="text-[#11181C] dark:text-white flex flex-col items-center m-8 md:m-16">
