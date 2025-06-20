@@ -41,7 +41,7 @@ export default function Contact() {
             </motion.button> */}
           </div>
         </div>
-        <motion.button whileHover={{ scale: 1.09 }} className="dark:text-white text-[#495057] mt-4 p-2 rounded-xl border-2 border-[#889096]" href="/Niraj_Resume.pdf" onClick={()=>handleLinkOpen("/Niraj_Resume.pdf")}>
+        <motion.button whileHover={{ scale: 1.09 }} className="dark:text-white text-[#495057] mt-4 p-2 rounded-xl border-2 border-[#889096]" href="/Srinivas_N_Resume.pdf" onClick={()=>handleLinkOpen("/Srinivas_N_Resume.pdf")}>
           Download CV
         </motion.button>
       </motion.div>
