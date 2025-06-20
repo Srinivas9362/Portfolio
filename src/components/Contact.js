@@ -23,22 +23,22 @@ export default function Contact() {
           <span className="text-[#11181C] dark:text-white font-semibold">
             Email:
           </span>{" "}
-          nirajmuttur2@outlook.com
+          Srinivascmrit04@gmail.com
         </p>
         <div className=" flex items-center">
           <p className="dark:text-white text-[#11181C] font-semibold">
             Other Links:
           </p>
           <div className="text-5xl text-[#171717] dark:text-[#889096] m-2">
-            <motion.button whileHover={{ scale: 1.5 }} title="github" href="https://github.com/nirajmuttur" onClick={()=>handleLinkOpen("https://github.com/nirajmuttur")}>
+            <motion.button whileHover={{ scale: 1.5 }} title="github" href="https://github.com/Srinivas9362" onClick={()=>handleLinkOpen("https://github.com/Srinivas9362")}>
               <AiFillGithub className=" p-2 rounded-xl overflow-hidden" />
             </motion.button>
-            <motion.button whileHover={{ scale: 1.5 }} title="linkedin" href="https://www.linkedin.com/in/niraj-muttur-7b43b7176" onClick={()=>handleLinkOpen("https://www.linkedin.com/in/niraj-muttur-7b43b7176")}>
+            <motion.button whileHover={{ scale: 1.5 }} title="linkedin" href="https://www.linkedin.com/in/srinivas-n-dataengineer/" onClick={()=>handleLinkOpen("https://www.linkedin.com/in/srinivas-n-dataengineer/")}>
               <FaLinkedinIn className=" p-2 rounded-xl overflow-hidden" />
             </motion.button>
-            <motion.button whileHover={{ scale: 1.5 }} title="instagram" href="https://www.instagram.com/niraj_muttur/" onClick={()=>handleLinkOpen("https://www.instagram.com/niraj_muttur/")}>
+            {/* <motion.button whileHover={{ scale: 1.5 }} title="instagram" href="https://www.instagram.com/niraj_muttur/" onClick={()=>handleLinkOpen("https://www.instagram.com/niraj_muttur/")}>
               <AiFillInstagram className=" p-2 rounded-xl overflow-hidden" />
-            </motion.button>
+            </motion.button> */}
           </div>
         </div>
         <motion.button whileHover={{ scale: 1.09 }} className="dark:text-white text-[#495057] mt-4 p-2 rounded-xl border-2 border-[#889096]" href="/Niraj_Resume.pdf" onClick={()=>handleLinkOpen("/Niraj_Resume.pdf")}>

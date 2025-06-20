@@ -15,10 +15,13 @@ export default function About() {
       transition={{ delay: 0.5 }}
       className="w-full mt-4 md:mt-0 md:w-1/2 text-[#495057] dark:text-[#889096] text-xl">
         <p>
-          I am Niraj Muttur Senior Cloud Engineer @LTIMindtree. Enthusiastic
-          about full-stack web development and driven to acquire new
-          technologies. Seeking to contribute my skills and determination to a
-          dynamic organization that fosters growth and innovation.
+          I am committed to staying at the forefront of emerging trends and technologies in Big Data. I embrace challenges as opportunities for growth and seek out new ways to push boundaries and drive impactful change
+
+          Specialties:
+          Data engineering - SnowFlake, Hadoop, MapReduce, Nifi, DBT
+          Good understanding on Data Structures and Algorithms
+          Programming Languages: Python, SQL, Pyspark, Hive
+          Cloud Technologies: AWS
         </p>
       </motion.div>
     </div>
